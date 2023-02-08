@@ -7,7 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head></head>
+      <head>
+        <title>NEXTJS TODO APP</title>
+      </head>
       <body>
         <Header />
         {children}
